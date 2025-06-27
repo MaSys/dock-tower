@@ -25,7 +25,6 @@ function App() {
       margin: 0,
     }}>
       <div style={{
-        width: '100%',
         margin: '0 auto',
         padding: '48px 16px 0 16px',
       }}>
@@ -46,7 +45,6 @@ function App() {
           borderRadius: 18,
           boxShadow: '0 4px 24px rgba(34,34,59,0.08)',
           padding: 32,
-          width: '100%',
           overflowX: 'auto',
         }}>
           <table style={{
@@ -56,7 +54,7 @@ function App() {
             fontSize: 17,
           }}>
             <thead>
-              <tr style={{ background: '#f2e9e4' }}>
+              <tr>
                 <th style={thStyle}>Container Name</th>
                 <th style={thStyle}>Current Image</th>
                 <th style={thStyle}>Current Tag</th>
